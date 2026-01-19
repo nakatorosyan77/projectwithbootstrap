@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    min-width: 320px;
+    @import './styles/slide.scss';
+    @import './styles/app.scss';
+    @import './styles/clarity.scss';
+    @import './styles/features.scss';
+    @import './styles/pricing.scss';
+    @import './styles/footer.scss';
+}
+
+.modal-backdrop {
+    z-index: unset !important;
+    opacity: 1 !important;
+    background: transparent !important;
+}
