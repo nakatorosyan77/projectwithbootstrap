@@ -1,0 +1,41 @@
+.features {
+    width: 100%;
+    height: auto;
+    background: rgb(61, 61, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+    h2 {
+        font-size: clamp(4.3rem, 4vw, 3.4rem);
+    }
+
+    .icons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px 0;
+
+        .icon_blocks {
+            width: calc(100% / 5);
+            height: 150px;
+            min-width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            gap: 5px;
+            flex-direction: column;
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
+}
